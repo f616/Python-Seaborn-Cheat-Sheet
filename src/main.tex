@@ -1,0 +1,50 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+
+\usepackage[portrait,margin=1cm]{geometry}
+\usepackage[english]{babel}
+\usepackage{multirow}
+\usepackage[table]{xcolor}
+\usepackage{hhline}
+\usepackage{ragged2e}
+
+\renewcommand{\arraystretch}{1.5}
+
+%-------------------------
+
+\title{
+\raggedright
+{\textbf{\color{black} Python for Data Science\\
+\color{alert}Seaborn: Statistical Data Visualization}}
+\color{black}\large\\Cheat Sheet}
+
+
+\author{f616 \emph{adapted from datacamp.com}}
+%\date{\today}
+\date{}
+\input{cheatsheet-template.tex}
+
+
+
+%--------------------------------------------------------------------------------
+\begin{document}
+\small
+\begin{multicols}{2}
+
+\maketitle
+\thispagestyle{empty}
+\scriptsize
+%\tableofcontents
+
+%-----------------------------------------------------
+\input{contents/cheatsheet-examples}
+
+
+
+
+%---------------------------------------------
+%\AtNextBibliography{\footnotesize}
+%\printbibliography  
+\end{multicols}
+
+\end{document}
